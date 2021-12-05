@@ -198,6 +198,7 @@ while True:
                     bot.sendMessage(ID, ">>>> SELL_failure <<<<" + '\n'
                                     + str(failure) + "번째 실패" + '\n'
                                     + "투자금액: " + str(possess_money) + '\n'
+                                    + "첫 매수가:" + str(buy_price) + '\n'
                                     + "평단가: " + str(avg_price) + '\n'
                                     + "매도가격: " + str(sell_price) + '\n'
                                     + "매도금액: " + str(my_money) + '\n'
@@ -215,7 +216,8 @@ while True:
                     bot.sendMessage(ID, ">>>> SELL_success <<<<" + '\n'
                                     + str(success) + "번째 성공" + '\n'
                                     + "투자금액: " + str(possess_money) + '\n'
-                                    + "n회 매수: " + str(possess_money/100000)
+                                    + "n회 매수: " + str(possess_money/100000) + '\n'
+                                    + "첫 매수가:" + str(buy_price) + '\n'
                                     + "평단가: " + str(avg_price) + '\n'
                                     + "매도가격: " + str(sell_price) + '\n'
                                     + "매도금액: " + str(my_money) + '\n'
